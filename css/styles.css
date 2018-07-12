@@ -1,0 +1,47 @@
+/* these are selectors */
+.container, .container-fluid {
+  border:solid 1px black;  /* this is the key-value pair*/
+  margin-bottom: 20px;
+  background: #efefef;
+  /* this is part of the declaration block */
+
+}
+/* below is "all the classes beginning in col-" */
+[class^="col-"] {
+  border: solid 1px green;
+}
+
+/* for exercise 8  */
+.my-shared-class {
+  padding-top:20px;
+  padding-bottom:20px;
+  background: pink;
+}
+
+/* media queries of small screens */
+@media screen and (min-width:760px) {
+
+}
+
+/* medium */
+@media screen and (min-width:992px) {
+
+}
+
+/* large screens */
+@media screen and (min-width:1200px) {
+  .my-shared-class {
+    padding-top:60px;
+    padding-bottom: 60px;
+  }
+    .my-class-one {
+      background: red;
+    }
+    .my-class-two {
+      background: orange;
+    }
+
+    .my-class-three {
+      background: yellow;
+    }
+}
